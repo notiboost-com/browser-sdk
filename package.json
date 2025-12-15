@@ -1,0 +1,37 @@
+{
+  "name": "@notiboost/browser-sdk",
+  "version": "1.0.0",
+  "description": "Official browser JavaScript/TypeScript SDK for NotiBoost - Notification Orchestration Platform",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/browser.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notiboost",
+    "notification",
+    "orchestration",
+    "sdk",
+    "browser",
+    "typescript"
+  ],
+  "author": "NotiBoost",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notiboost/browser-sdk.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0",
+    "rollup": "^3.0.0",
+    "@rollup/plugin-typescript": "^11.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
+
